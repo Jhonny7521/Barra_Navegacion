@@ -1,0 +1,53 @@
+*{    
+font-family: 'Comfortaa', cursive;
+}
+
+.nav {
+    background-color: dimgray ;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    display: flex;
+    align-items:center ;
+}
+
+.nav-links {
+    display: flex;
+    align-items:center ;
+}
+
+.active {
+    color: white;
+}
+
+.btn{
+    background-color: lightseagreen;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px black;
+    padding: 5px;
+}
+
+h1 {
+    margin: 5px 25px;
+    color: white;
+}
+
+ul {
+    align-content : flex-end;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 0px 15px;
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
+}
